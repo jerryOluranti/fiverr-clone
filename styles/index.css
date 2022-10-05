@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all ease-in-out .5s;
+}
+
+.landing-area {
+  height: 90vh;
+  width: 100%;
+  background-color: darkgreen;
+  padding: 0 3vw;
+  display: flex;
+  align-items: center;
+}
+
+.landing-area-info {
+  max-width: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.landing-area-info > h2 {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.landing-area-info-input-group {
+  gap: 0;
+  display: flex;
+  align-items: center;
+}
+
+.landing-area-info-input-group > input {
+  width: 80%;
+  height: 48px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: none;
+  border-color: green;
+  outline: none;
+  border-width: 1px;
+  padding-left: 15px;
+  font-size: 1rem;
+}
+
+.landing-area-info-input-group > button {
+  width: 20%;
+  height: 50px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.landing-area-popular {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.landing-area-popular > button {
+  padding: 8px;
+  border-radius: 30px;
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.landing-area-popular > button:hover {
+  background-color: white;
+  color: darkolivegreen;
+}
